@@ -1,7 +1,7 @@
 {
-  "name": "Momentum Elite Training Club",
-  "short_name": "Momentum",
-  "description": "Professional training club for elite athletes and fitness enthusiasts.",
+  "name": "Micky Training",
+  "short_name": "Micky",
+  "description": "Elite Personal Trainer designed for those who accept no excuses.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",

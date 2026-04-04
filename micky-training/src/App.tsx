@@ -112,7 +112,7 @@ export default function App() {
         
         if (isMobile) {
           // 2. Si es móvil, abrir WhatsApp en una nueva ventana/pestaña para evitar bloqueos de iframe
-          const textoWhatsApp = `¡Hola Micky! 👋%0A%0AHe visto la web de Momentum y me gustaría empezar:%0A%0A👤 *Nombre:* ${nombre}%0A📧 *Email:* ${email}%0A📞 *Teléfono:* ${telefono_cliente}%0A🎯 *Objetivo:* ${objetivo}${mensaje ? `%0A💬 *Mensaje:* ${mensaje}` : ''}`;
+          const textoWhatsApp = `¡Hola Micky! 👋%0A%0AHe visto la web de Micky Training y me gustaría empezar:%0A%0A👤 *Nombre:* ${nombre}%0A📧 *Email:* ${email}%0A📞 *Teléfono:* ${telefono_cliente}%0A🎯 *Objetivo:* ${objetivo}${mensaje ? `%0A💬 *Mensaje:* ${mensaje}` : ''}`;
           const telefono_momentum = "34616423016";
           const finalUrl = `https://wa.me/${telefono_momentum}?text=${textoWhatsApp}`;
           
@@ -183,7 +183,7 @@ export default function App() {
                   <span className="font-black text-[23px] tracking-tighter uppercase text-white italic inline-block transform scale-y-[1.10] origin-bottom">MICKY TRAINING</span>
                 </div>
                 <div className="flex items-center mt-1">
-                  <span className="text-[11px] font-bold text-red-600 uppercase tracking-[0.35em] w-full text-center">ELITE TRAINING CLUB</span>
+                  <span className="text-[9px] font-bold text-red-600 uppercase tracking-[0.39em] w-full text-center">ELITE PERSONAL TRAINER</span>
                 </div>
                 <div className="flex items-center gap-1 mt-1 opacity-40 w-full">
                   <div className="h-[1px] w-4 bg-white"></div>
@@ -859,7 +859,7 @@ export default function App() {
                   <span className="font-black text-[23px] tracking-tighter uppercase text-white italic inline-block transform scale-y-[1.10] origin-bottom">MICKY TRAINING</span>
                 </div>
                 <div className="flex items-center mt-1">
-                  <span className="text-[11px] font-bold text-red-600 uppercase tracking-[0.35em] w-full text-center">ELITE TRAINING CLUB</span>
+                  <span className="text-[9px] font-bold text-red-600 uppercase tracking-[0.39em] w-full text-center">ELITE PERSONAL TRAINER</span>
                 </div>
                 <div className="flex items-center gap-1 mt-1 opacity-40 w-full">
                   <div className="h-[1px] w-4 bg-white"></div>
@@ -884,7 +884,7 @@ export default function App() {
             </div>
             
             <p className="text-xs text-zinc-600 font-medium uppercase tracking-widest">
-              © 2026 MICKY TRAINING. Elite Training Club. Sport & Health.
+              © 2026 MICKY TRAINING. Elite Personal Trainer. Sport & Health.
             </p>
           </div>
         </div>
