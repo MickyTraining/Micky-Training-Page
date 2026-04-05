@@ -98,7 +98,7 @@ export default function App() {
     
     try {
       // 1. Enviar a Formspree (para registro por email)
-      const response = await fetch("https://formspree.io/f/mlgpkger", {
+      const response = await fetch("https://formspree.io/f/xaqllakk", {
         method: "POST",
         body: formData,
         headers: {
@@ -172,18 +172,18 @@ export default function App() {
       <nav className="fixed top-0 w-full z-50 bg-zinc-950/90 backdrop-blur-md border-b border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
-            <div className="flex items-center gap-4 group cursor-pointer" translate="no">
-              <div className="relative w-14 h-14 flex items-center justify-center">
+            <div className="flex items-center gap-4 group cursor-pointer shrink-0" translate="no">
+              <div className="relative w-14 h-14 flex items-center justify-center shrink-0">
                 <div className="absolute inset-0 border-4 border-red-600 rounded-xl rotate-45 group-hover:rotate-90 transition-transform duration-500"></div>
                 <div className="absolute inset-0 border-2 border-white/20 rounded-xl rotate-12"></div>
                 <span className="text-[14px] font-black text-white tracking-tighter z-10">MTC</span>
               </div>
-              <div className="flex flex-col leading-none">
+              <div className="flex flex-col leading-none min-w-max">
                 <div className="flex items-baseline gap-1">
-                  <span className="font-black text-[23px] tracking-tighter uppercase text-white italic inline-block transform scale-y-[1.10] origin-bottom">MICKY TRAINING</span>
+                  <span className="font-black text-[23px] tracking-tighter uppercase text-white italic inline-block transform scale-y-[1.10] origin-bottom whitespace-nowrap">MICKY TRAINING</span>
                 </div>
                 <div className="flex items-center mt-1">
-                  <span className="text-[9px] font-bold text-red-600 uppercase tracking-[0.39em] w-full text-center">ELITE PERSONAL TRAINER</span>
+                  <span className="text-[9px] font-bold text-red-600 uppercase tracking-[0.39em] w-full text-center whitespace-nowrap">ELITE PERSONAL TRAINER</span>
                 </div>
                 <div className="flex items-center gap-1 mt-1 opacity-40 w-full">
                   <div className="h-[1px] w-4 bg-white"></div>
@@ -848,18 +848,18 @@ export default function App() {
       <footer className="py-20 bg-zinc-950 border-t border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-12" translate="no">
-            <div className="flex items-center gap-4 group cursor-pointer">
-              <div className="relative w-14 h-14 flex items-center justify-center">
+            <div className="flex items-center gap-4 group cursor-pointer shrink-0">
+              <div className="relative w-14 h-14 flex items-center justify-center shrink-0">
                 <div className="absolute inset-0 border-4 border-red-600 rounded-xl rotate-45 group-hover:rotate-90 transition-transform duration-500"></div>
                 <div className="absolute inset-0 border-2 border-white/20 rounded-xl rotate-12"></div>
                 <span className="text-[14px] font-black text-white tracking-tighter z-10">MTC</span>
               </div>
-              <div className="flex flex-col leading-none">
+              <div className="flex flex-col leading-none min-w-max">
                 <div className="flex items-baseline gap-1">
-                  <span className="font-black text-[23px] tracking-tighter uppercase text-white italic inline-block transform scale-y-[1.10] origin-bottom">MICKY TRAINING</span>
+                  <span className="font-black text-[23px] tracking-tighter uppercase text-white italic inline-block transform scale-y-[1.10] origin-bottom whitespace-nowrap">MICKY TRAINING</span>
                 </div>
                 <div className="flex items-center mt-1">
-                  <span className="text-[9px] font-bold text-red-600 uppercase tracking-[0.39em] w-full text-center">ELITE PERSONAL TRAINER</span>
+                  <span className="text-[9px] font-bold text-red-600 uppercase tracking-[0.39em] w-full text-center whitespace-nowrap">ELITE PERSONAL TRAINER</span>
                 </div>
                 <div className="flex items-center gap-1 mt-1 opacity-40 w-full">
                   <div className="h-[1px] w-4 bg-white"></div>
