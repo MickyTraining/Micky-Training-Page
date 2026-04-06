@@ -180,14 +180,14 @@ export default function App() {
               </div>
               <div className="flex flex-col leading-none min-w-max">
                 <div className="flex items-baseline gap-1">
-                  <span className="logo-title text-[23px] text-white">MICKY&nbsp;TRAINING</span>
+                  <span className="font-black text-[23px] tracking-tighter uppercase text-white italic inline-block transform scale-y-[1.10] origin-bottom whitespace-nowrap">MICKY TRAINING</span>
                 </div>
                 <div className="flex items-center mt-1">
-                  <span className="logo-subtitle text-[8.5px]">ELITE PERSONAL TRAINER</span>
+                  <span className="text-[9px] font-bold text-red-600 uppercase tracking-[0.39em] w-full text-center whitespace-nowrap">ELITE PERSONAL TRAINER</span>
                 </div>
                 <div className="flex items-center gap-1 mt-1 opacity-40 w-full">
                   <div className="h-[1px] w-4 bg-white"></div>
-                  <span className="text-[7.5px] font-medium text-white uppercase tracking-[0.55em] flex-1 text-center">Sport & Health</span>
+                  <span className="text-[8px] font-medium text-white uppercase tracking-[0.55em] flex-1 text-center">Sport & Health</span>
                   <div className="h-[1px] w-4 bg-white"></div>
                 </div>
               </div>
@@ -856,14 +856,14 @@ export default function App() {
               </div>
               <div className="flex flex-col leading-none min-w-max">
                 <div className="flex items-baseline gap-1">
-                  <span className="logo-title text-[23px] text-white">MICKY&nbsp;TRAINING</span>
+                  <span className="font-black text-[23px] tracking-tighter uppercase text-white italic inline-block transform scale-y-[1.10] origin-bottom whitespace-nowrap">MICKY TRAINING</span>
                 </div>
                 <div className="flex items-center mt-1">
-                  <span className="logo-subtitle text-[8.5px]">ELITE PERSONAL TRAINER</span>
+                  <span className="text-[9px] font-bold text-red-600 uppercase tracking-[0.39em] w-full text-center whitespace-nowrap">ELITE PERSONAL TRAINER</span>
                 </div>
                 <div className="flex items-center gap-1 mt-1 opacity-40 w-full">
                   <div className="h-[1px] w-4 bg-white"></div>
-                  <span className="text-[7.5px] font-medium text-white uppercase tracking-[0.55em] flex-1 text-center">Sport & Health</span>
+                  <span className="text-[8px] font-medium text-white uppercase tracking-[0.55em] flex-1 text-center">Sport & Health</span>
                   <div className="h-[1px] w-4 bg-white"></div>
                 </div>
               </div>
